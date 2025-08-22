@@ -1,0 +1,31 @@
+name: languages
+description: A Flutter app for multi-language support with English, Hindi, Urdu, and Arabic.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+  fonts:
+    - family: NotoNastaliqUrdu
+      fonts:
+        - asset: fonts/Noto_Nastaliq_Urdu/NotoNastaliqUrdu-VariableFont_wght.ttf
+    - family: NotoSansArabic
+      fonts:
+        - asset: fonts/Noto_Nastaliq_Urdu,Noto_Sans_Arabic/Noto_Sans_Arabic/NotoSansArabic-VariableFont_wdth,wght.ttf

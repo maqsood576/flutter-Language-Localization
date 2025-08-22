@@ -1,0 +1,7 @@
+{
+  "@@locale": "en",
+  "appTitle": "Language Switcher",
+  "welcome": "Hello, welcome to the app!",
+  "selectLanguage": "Select Language",
+  "buttonSave": "Save"
+}
